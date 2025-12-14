@@ -1,0 +1,7 @@
+Step: Checkout .................. OK
+Step: Setup Python 3.11 ......... OK
+Step: Cache pip ................. Cache restored / Cache miss
+Step: Install deps .............. OK
+Step: Init DB ................... OK
+Step: Run tests ................. OK (pytest, 8 passed)
+Step: Upload artifacts .......... OK (evidence-s08)

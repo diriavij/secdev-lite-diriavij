@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="pytest" errors="0" failures="0" skipped="0" tests="8" time="1.873" timestamp="2024-01-21T14:32:15.123456+03:00" hostname="secdev-machine">
+    <testcase classname="tests.test_login_sql_injection" name="test_login_sql_injection_blocked" time="0.234" />
+    <testcase classname="tests.test_login_sql_injection" name="test_login_valid_credentials" time="0.187" />
+    <testcase classname="tests.test_search_sql_like" name="test_search_like_injection_blocked" time="0.298" />
+    <testcase classname="tests.test_search_sql_like" name="test_search_valid_query" time="0.156" />
+    <testcase classname="tests.test_xss_escaping" name="test_echo_escapes_script_tags" time="0.223" />
+    <testcase classname="tests.test_xss_escaping" name="test_echo_escapes_img_onerror" time="0.198" />
+    <testcase classname="tests.test_validation" name="test_login_username_too_long" time="0.312" />
+    <testcase classname="tests.test_validation" name="test_login_username_invalid_chars" time="0.265" />
+  </testsuite>
+</testsuites>
